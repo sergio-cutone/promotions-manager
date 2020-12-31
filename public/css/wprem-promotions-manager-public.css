@@ -1,0 +1,28 @@
+.wprem-promotions-container .wprem-promotions .wprem-inner {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 1em;
+}
+.wprem-promotions-container .wprem-promotions .wprem-inner .wprem-btn {
+	display: block;
+}
+.wprem-promotions-container .wprem-promotions .wprem-inner .wprem-btn a {
+	transition: all 0.5s;
+	border: 0;
+}
+.wprem-promotions-container .wprem-promotions .wprem-inner .wprem-btn a:hover {
+	text-decoration: none;
+	filter: grayscale(25%);
+}
+.wprem-promotions-container .wprem-promotions, 
+.wprem-promotions-container .wprem-promotions .wprem-expiry {
+	/*margin-bottom: 25px;*/
+}
+@media only screen and (min-width: 1024px) {
+	.wprem-inner-horizontal {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
